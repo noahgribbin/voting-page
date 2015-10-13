@@ -1,19 +1,32 @@
 <html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-   <header>
+  <header>
     <h2>Header</h2>
   </header>
 
-  <main class ='container'>
-
+  <main>
+    <div>
+      <div class="div" id='pop1'>
+      </div>
+      <div class="div">
+        <img id="img1" onclick="hilight1()" class="image"/>
+      </div>
+      <div class="div" id='pop2'>
+      </div>
+      <div class="div">
+        <img id="img2" onclick="hilight2()" class="image"/>
+      </div>
+    </div>
+    <button onclick="reset()">Next Vote</button>
+    <!-- ching chong im a gook -->
   </main>
 
-  <footer>
-    <h2>Footer</h2>
-  </footer>
+  <script src="app.js"></script>
 </body>
 
 </html>

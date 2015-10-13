@@ -6,11 +6,21 @@ article, section, aside{
   border: 2px solid blue;
   margin: 2px;
 }
-main{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-start;
+#div{
+  text-align: center;
 }
+.image{
+  border: 2px solid black;
+  padding: 2px;
+  margin: 2px;
+  float: left;
+}
+.hilighted{
+  border: 2px solid yellow;
+  padding: 2px;
+  margin: 2px;
+  position: fixed;
+}
+main{
 
+}
