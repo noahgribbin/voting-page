@@ -1,3 +1,4 @@
+/*Page style*/
 header, footer{
   border: 2px solid black;
   margin: 2px;
@@ -6,20 +7,38 @@ article, section, aside{
   border: 2px solid blue;
   margin: 2px;
 }
-#div{
+body{
+  background-color: #141D35;
+}
+header{
+  background-color: #0F322B;
+}
+
+/*Photo game*/
+#wrap{
+}
+.imageholder{
   text-align: center;
+/*not working*/
 }
 .image{
   border: 2px solid black;
   padding: 2px;
   margin: 2px;
   float: left;
+  background-color: #112532;
 }
 .hilighted{
   border: 2px solid yellow;
   padding: 2px;
   margin: 2px;
   position: fixed;
+}
+.score{
+  border: 2px solid black;
+  padding: 2px;
+  margin: 2px;
+  float: left;
 }
 main{
 
