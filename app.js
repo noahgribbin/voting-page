@@ -6,7 +6,6 @@ var Wrestler = function(src, pop){
   this.src = src;
   this.pop = pop
 }
-
 var wrestlers = [
   new Wrestler('img/batista.png',0),
   new Wrestler('img/cena.png',0),
@@ -21,11 +20,9 @@ var wrestlers = [
   new Wrestler('img/undertaker.png',0),
   new Wrestler('img/ventura.png',0)
 ]
-
 function randomWrestler(){
   return Math.round(Math.random() * (wrestlers.length-1))
 }
-
 function getTwoWrestlers(){
   var a = randomWrestler();
   var b = randomWrestler();
@@ -34,7 +31,6 @@ function getTwoWrestlers(){
   }
   return [a,b]
 }
-
 function putWrestler1(){
   var div = document.getElementById('img1');
   div.src = wrestlers[twowrestlers[0]].src;
@@ -64,7 +60,6 @@ function vote(){
   }
   voted = false;
 }
-
 function reset(){
   document.getElementById("img1").style.borderColor = "black";
   document.getElementById("img2").style.borderColor = "black";
@@ -73,5 +68,4 @@ function reset(){
   putWrestler2();
   vote();
 }
-
 reset();

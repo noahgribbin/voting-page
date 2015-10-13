@@ -16,6 +16,10 @@ header{
 
 /*Photo game*/
 #wrap{
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .imageholder{
   text-align: center;
@@ -32,6 +36,7 @@ header{
   border: 2px solid yellow;
   padding: 2px;
   margin: 2px;
+  float: left;
   position: fixed;
 }
 .score{
@@ -40,6 +45,8 @@ header{
   margin: 2px;
   float: left;
 }
-main{
-
+#buttonholder{
+  clear:both;
+  width: 140px;
+  margin: auto;
 }
