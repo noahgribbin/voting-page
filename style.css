@@ -1,0 +1,16 @@
+header, footer{
+  border: 2px solid black;
+  margin: 2px;
+}
+article, section, aside{
+  border: 2px solid blue;
+  margin: 2px;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
