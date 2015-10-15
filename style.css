@@ -1,36 +1,41 @@
 /*Page style*/
-header, footer{
+header{
   border: 2px solid black;
   margin: 2px;
+  text-align: center;
 }
 article, section, aside{
   border: 2px solid blue;
   margin: 2px;
 }
 body{
-  background-color: #141D35;
+  background-color: #FF2419;
 }
 header{
-  background-color: #0F322B;
+  background-color: #CCCCCC;
 }
-
+#pop1, #pop2{
+  border: 1px solid transparent
+}
 /*Photo game*/
 #wrap{
-  width:500px;
+  width:650px;
   margin-left: auto;
   margin-right: auto;
 
 }
+#graphholder{
+  float:left;
+}
 .imageholder{
-  text-align: center;
-/*not working*/
+float: left;
 }
 .image{
   border: 2px solid black;
   padding: 2px;
   margin: 2px;
   float: left;
-  background-color: #112532;
+  background-color: #483FB7;
 }
 .hilighted{
   border: 2px solid yellow;
