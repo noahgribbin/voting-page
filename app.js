@@ -6,7 +6,7 @@ var toBeIncreaced;
 var Wrestler = function(src, wrestler){
   this.src = src;
   this.name = wrestler;
-  data.push({value:1, label: wrestler,color: '#361A18', highlight: '#811B33'})
+  data.push({value:0, label: wrestler,color: '#361A18', highlight: '#811B33'})
 }
 var wrestlers = [
   new Wrestler('img/batista.png','Batista'),
