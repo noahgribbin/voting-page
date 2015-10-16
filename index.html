@@ -2,23 +2,21 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+  <script src="chart.js"></script>
 </head>
 
 <body>
   <header>
-    <h1>VOTE FOR YOUR FAVORITE</h1>
-    <h2>CLICK TO VOTE</h2>
+    <h2>Header</h2>
+
   </header>
+
   <main>
     <div id='wrap'>
       <div class="score" id='pop1'>
       </div>
       <div class="imageholder">
         <img id="img1" onclick="hilight1()" class="image"/>
-      </div>
-        <div id='graphholder'>
-        <canvas id="graph" width="200" height="200"></canvas>
       </div>
       <div class="imageholder">
         <img id="img2" onclick="hilight2()" class="image"/>
@@ -30,10 +28,9 @@
     <div id='buttonholder'>
     <button id='button' onclick="reset()">Next Vote</button>
   </div>
+  <canvas id="skills" width="500" height="500"></canvas>
   </main>
-  <script src="chart.js"></script>
   <script src="app.js"></script>
-
 </body>
 
 </html>

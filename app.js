@@ -22,6 +22,35 @@ var wrestlers = [
   new Wrestler('img/undertaker.png','The Undertaker'),
   new Wrestler('img/ventura.png','Jesse The Body Ventura')
 ]
+var batista = wrestlers[0]
+var cena = wrestlers[1]
+var sheik = wrestlers[2]
+var lesnar = wrestlers[3]
+var macho = wrestlers[4]
+var mcmahon = wrestlers[5]
+var warrior = wrestlers[6]
+var orton = wrestlers[7]
+var stonecold = wrestlers[8]
+var tripleh = wrestlers[9]
+var undertaker = wrestlers[10]
+var jesse = wrestlers[11]
+
+var json1 = JSON.stringify(batista);
+var json2 = JSON.stringify(cena);
+var json3 = JSON.stringify(sheik);
+var json4 = JSON.stringify(lesnar);
+var json5 = JSON.stringify(macho);
+var json6 = JSON.stringify(mcmahon);
+var json7 = JSON.stringify(warrior);
+var json8 = JSON.stringify(orton);
+var json9 = JSON.stringify(stonecold);
+var json10 = JSON.stringify(tripleh);
+var json11 = JSON.stringify(undertaker);
+var json12 = JSON.stringify(jesse);
+
+localStorage.popTrack = batista.;
+
+
 function randomWrestler(){
   return Math.round(Math.random() * (wrestlers.length-1))
 }
